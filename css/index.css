@@ -1,0 +1,728 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    border:none;
+    font-weight: 300;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+body{
+    background-color: #ccc;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.cabecalho{
+    width: 100%;
+    float: left;
+   background:#2f4f4f;
+    height: 70px;
+  
+}
+.cabecalho img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: -15px;
+}
+.btn-menu{
+    float: right;
+    font-size: 2.5em;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    opacity: .9;
+    float: left;
+    left: 0;
+    top: 0;
+    background: #000;
+    display: none;
+  
+}
+.menu .btn-fechar{
+    float: right;
+     font-size: 2.5em;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.menu li{
+    height: 30px;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+/*corpo*/
+* .tudo{
+    width: 100%;
+    float: left;
+    background: #fff;
+    
+}
+.artigo{
+    width: 100%;
+    float: left;
+    background:#3498db; 
+}
+.divisao{
+    width: 100%;
+    float: left;
+    
+}
+.dir1{
+    width: 100%;
+    float: left;
+}
+.dir1 h3{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    color:white;
+}
+.dir1 p{
+    width: 100;
+    float: left;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+.dois{
+    width: 100%;
+    float: left;
+    background: #333;
+    color:#fff;
+}
+.dois h3{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+     font-weight: 600;
+}
+.dois p{
+    width: 100%;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+}
+.sobre{
+    width: 100%;
+    float: left;
+    padding: 5%;
+}
+.sobre1{
+    width: 100%;
+    float: left;
+    height: 230px;
+    background: #9b59b6;
+    margin-bottom:15px; 
+}
+.sobre1 h4{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+.sobre1 p{
+    text-align: justify;
+    padding: 5%;
+    font-size:1em;
+    opacity: .8;
+}
+.sobre2{
+    background: #fff;
+    color: #333;
+    
+}
+.sobre3{
+    background: #f39c12;
+}
+
+
+
+/*DISERES*/
+ .diseres{
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+.diseres h2{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgba(0,0,0,0.8);
+}
+.fale{
+    width: 100%;
+    float: left;
+    padding: 3%;
+    background: #3994db;
+    color: white;
+    
+}
+.diseres p{
+    width: 100%;
+    float: left;
+    color:#3498db;
+    font-weight: 600;
+    padding-left: 5px;
+    text-align: justify;
+}
+.diseres span{
+    color: rgba(0,0,0,0.8);
+}
+.avatar{
+    width: 100%;
+    float: left;
+}
+.avatar .imagem{
+    width: 100%;
+    float: left;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.imagem img{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    border-bottom: 2px dashed #000;
+    border-radius: 40%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    
+}
+.fale1{
+    width: 100%;
+    float: left;
+    
+}
+.fale1 h4{
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fale1 p{
+    width: 100%;
+    float: left;
+    font-size: 15px;
+}
+.fale2{
+    width: 100%;
+    float: left;
+    
+}
+.fale2 p{
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fale2 form{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    background: #bdc3c7;
+    border-radius: 2%;
+    
+}
+.fale2 form label{
+    width: 93%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 19px;       
+    
+}
+.fale2 form input[ type="text"]{
+    width: 96%;
+    float: left;
+    padding: 2%;
+    font-size: 13px;
+    margin-left: 2%;
+    
+}
+.fale2 form input[type="email"]{
+     width: 96%;
+    float: left;
+    padding: 2%;
+    font-size: 12px;
+    margin-left: 2%;
+}
+.fale2 form input[type="submit"]:hover{
+    background: #2980b9;
+    transition: 1s ease-in-out;
+}
+.fale2 form input[ type="submit"]{
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 30px;
+    color:#fff;
+    margin-bottom: 30px;
+    background: #3994db;
+    cursor: pointer;
+    
+    
+}
+.redesocial{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.redesocial p{
+    line-height: 20px;
+}
+.redesocial span{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    border-bottom: 2px dashed #ddd;
+   float: left;
+    margin-bottom: 10px;
+}
+.redesocial i{
+    font-size: 18px;
+}
+.redesocial .fa-envelope-o{
+    color: pink
+}
+.redesocial .fa-map-marker{
+    color: red;
+}
+footer{
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    color: #fff;
+    background: #2f4f4f;
+    padding-top: 30px;
+   
+}
+/*DEPOIMENTOS*/
+.depoimentos{
+    width: 100%;
+    float: left;
+    padding: 2%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.depoimentos h2{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.depoimento{
+    width: 100%;
+    float: left;
+}
+.depoimento .users{
+    width: 70%;
+    margin-left: 14%;
+    float: left;
+}
+.users .fa-user{
+    width: 40%;
+    color: #fff;
+    padding: 2%;
+    margin-left: 28%;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 6em;
+    height: 80px;
+    background: linear-gradient(
+    to left,
+        black, red
+    );
+}
+.users .nome{
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #DC143C;
+}
+.users .texto{
+     width: 100%;
+    text-align: justify;
+    float: left;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: .7;
+}
+.dep{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+    box-sizing: border-box;
+    cursor: poiter;
+    background: #28348A;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+     transition: all 1s ease;
+    
+}
+.dep:hover{
+   opacity: .8;
+}
+.depm{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.9);;
+    top:0;
+    left: 0px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+     z-index: 99;
+    display: none;
+   
+}
+.depm form{
+    width: 90%;
+    margin-left: 5%;
+   margin-top: 20%;
+    background: #fff;
+    float: left;
+  
+  
+}
+.depm form h3{
+    width: 100%;
+    float: left;
+    font-size: 1.3em;
+    background:  	#1E90FF;
+    color: #fff;
+    padding:2%;
+    
+}
+.depm form input[type="text"]{
+    width: 94%;
+    margin-left: 3%;
+    padding: 2%;
+    border:1px solid #ddd;
+    margin-top: 10px;
+    float: left;
+}
+.depm form textarea{
+    width: 94%;
+    margin-left: 3%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 230px;
+    font-size: 1.4em;
+    border: 1px solid #ddd;
+}
+.depm form input[type="submit"]{
+    width: 50%;
+    margin-left: 24%;
+    height: 30px;
+    background:  	#00BFFF;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+.fechar{
+    width: 100%;
+    height: 40px;
+    float:left;
+    text-align: right;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 1.3em;
+    padding-top: 7px;
+    border-top: 2px solid #ddd;
+    color:  	#B22222;
+    font-weight: 600;
+}
+.pedido{
+    width: 100%;
+    float: left;
+    padding: 2%;
+    padding-bottom: 50px;
+    background-image:url(../imagem/fundo.jpg);
+    background-size:cover;
+    color: #fff;
+}
+.pedido h2{
+    width: 100%;
+    float: left;
+    font-size: 1.4em;
+    font-weight:600;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+.pedido p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+.pedido form{
+    width: 100%;
+    float: left;
+}
+.pedido form input[type="text"]{
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+    padding: 3%;
+    border-radius:30px;
+    font-size: 13px;
+    
+}
+.pedido form input[type="submit"]{
+    background-color: #f39c12;
+    width: 45%;
+    margin-left: 27%;
+    color: #fff;
+    padding: 2%;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+}
+.pedido form input[type="submit"]:hover{
+    background-color: rgba(0,0,0,0.4);
+    transition: 1s all ease-in-out;
+    box-shadow: none;
+}
+/*Codigo para Computador*/
+@media screen and (min-width:800px){
+    .btn-menu{
+        display: none;
+    } 
+    .menu{
+        display: block!important;
+        position: relative;
+        width: 90%;
+        float:left;
+        background: #2f4f4f;
+    }
+    .cabecalho img{
+        width: 10%;
+     float: left;  
+    }
+
+    .btn-fechar{
+        display: none;
+        
+    }
+    .menu ul{
+        width: auto;
+                float: right;
+    }
+    .menu ul li{
+        margin:15px;
+       float: left;
+      margin-left: 10px; 
+        line-height: 21px;
+        font-size: 1.4em;
+    }
+    .menu li a:hover{
+        color:#FDF5E6;
+        
+        transition: 0.8s all ease-in-out;
+}
+    .divisao .dir1{
+        width: 50%;
+        
+    }
+    .dir1 h3{
+        margin-top: 18%;
+        font-size: 4em;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 8%;
+    }
+    .dir1 p{
+        text-align: justify;
+        margin-left: 7%;
+        line-height: 1.7;
+    }
+    .dir2{
+        width: 50%;
+        float: left;
+           }
+    .dois h3{
+        font-size: 2.5em;
+    }
+    .dois p{
+        font-size:15px;
+    }
+    .sobre1{
+        width: 30%;
+        height: 250px;
+        padding-top: 30px;
+        margin-left: 3%;
+    }
+    .acerca, .avatar{
+        width: 50%;
+        float: left;
+    }
+    .avatar{
+        margin-top: -80px;
+        
+    }
+   .acerca{
+       padding: 4%;
+       padding-top: 3%;
+   }
+    .acerca p{
+        margin-top: 9px;
+    }
+    .fale{
+        padding: 0px;
+       
+    }
+    .fale h4{
+        margin-bottom: 50px;
+        font-size: 2.5em;
+    }
+    .fale2{
+        margin-bottom: 50px;
+             width: 50%;
+            border-right:1px dashed #ddd;
+    }
+    .fale2 p{
+        text-align:
+    }
+    .redesocial{
+        width: 50%;
+        padding-left: 10%;
+        padding-top: 5%; 
+    }
+    .fale2 form{
+        width: 400px;
+        background: #fff;
+        color:#ddd;
+    }
+    .fale2 input{
+        border:1px solid #ddd;
+    }
+    .fale2 form label{
+        margin-left: 10px;
+    }
+    .fale2 form input[type="text"]{
+        padding: 3%;
+        border-radius: 10px;
+    }
+    .fale2 form input[type="submit"]{
+        border:none;
+        height: 45px;
+        border-radius: 5px;
+    }
+    /*DEPOIMENTOS*/
+    .depoimento .users{
+    width: 25%;
+    margin-left: 6%;
+}
+.users .fa-user{
+    padding-top: 10px;
+    height: 100px;
+}
+.users .nome{
+    margin-top: 15px;
+}
+.dep{
+    margin-top: 80px;
+}
+.depoimentos h2{
+    font-size: 2.5em;
+    letter-spacing: -1px;
+}
+.depm form{
+    width: 48%;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+    .pedido{
+        padding-bottom: 90px;
+    }
+    .pedido h2{
+        font-size: 2.5em;
+    }
+    .pedido p{
+        font-size: 20px;
+        color: #ddd;
+        margin-top: -20px;
+    }
+    .pedido form input[type="text"]{
+        width: 38%;
+        padding: .9%;
+        font-size: 17px;
+        margin-left:1%
+    }
+    .pedido form input[type="submit"]{
+        width: 15%;
+        margin-left: 1%;
+        padding: .3%;
+        margin-top: 9px;
+        font-size: 22px;
+    }
+    .pedido form input[type="submit"]:hover{
+         background-color: #f39c12;
+    transition: .3s all ease-in-out;
+    box-shadow: 0px 0px 15px 0px #fff;
+    }
+    
+}
